@@ -1,0 +1,38 @@
+.home-box{
+    display: flex;
+    padding: 0 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    flex: 0.5;
+}
+.image-box{
+    /* height: 100vh; */
+}
+
+.left .image-box img{
+    height: 700px;
+}
+
+.right{
+    flex: 0.5;
+}
+
+.wrapper h1{
+    font-size: 60px;
+    margin: 10px 0;
+}
+
+.wrapper h2{
+    font-size: 35px;
+}
+
+.wrapper h3{
+    font-size: 30px;
+}
+
+.wrapper h3 span{
+    color: red;
+}

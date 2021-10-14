@@ -9,6 +9,9 @@ import { HomeComponent } from './components/home/home.component';
 import { RouterModule } from '@angular/router';
 import { appRoutes } from './routes';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { AboutComponent } from './components/about/about.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { PortfolioComponent } from './components/portfolio/portfolio.component';
     ButtonComponent,
     NavbarComponent,
     HomeComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    FooterComponent,
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
