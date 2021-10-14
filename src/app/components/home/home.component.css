@@ -8,9 +8,6 @@
 .left{
     flex: 0.5;
 }
-.image-box{
-    /* height: 100vh; */
-}
 
 .left .image-box img{
     height: 700px;
