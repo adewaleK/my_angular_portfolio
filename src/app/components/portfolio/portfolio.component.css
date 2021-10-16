@@ -34,7 +34,7 @@
 
 .items .item{
     width: 500px;
-    margin: 0 100px 50px 0;
+    margin: 0 50px 50px 0;
     border: 1px solid rgb(240, 237, 237);
     border-radius: 10px;
     background-color: #fbfffe;
@@ -104,7 +104,7 @@
 
 .links div a:hover{
     background-color: rgb(157, 248, 157);
-    color: green;
+    color: black;
     
 
 }
