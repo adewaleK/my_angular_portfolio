@@ -28,7 +28,7 @@
     height: 5px;
     background-color: red;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .wrapper h1{
@@ -42,8 +42,52 @@
 
 .wrapper h3{
     font-size: 30px;
+    margin-top: -15px;
 }
 
 .wrapper h3 span{
     color: red;
+}
+
+.wrapper p{
+    color: gray;
+    font-size: 20px;
+    margin: 12px 0;
+}
+
+.icons{
+    margin-bottom: 22px;
+}
+
+.icons a{
+    font-size: 35px;
+    margin-right: 10px;
+}
+
+.icons a .ghb{
+    color: black;
+}
+
+.icons a .lin{
+    color: #0270AD;
+}
+
+.icons a .tw{
+    color: #5AA4D6;
+}
+
+.getintouch{
+    background-color: green;
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: .8s ease-out;
+
+}
+
+.getintouch:hover{
+    color: black;
+    background-color: rgb(157, 248, 157);
 }
