@@ -1,6 +1,6 @@
 .home-box{
     display: flex;
-    padding: 0 5%;
+    padding: 8% 5% 3% 5%;
     justify-content: space-between;
     align-items: center;
 }
@@ -84,10 +84,47 @@
     text-decoration: none;
     font-size: 20px;
     transition: .8s ease-out;
+    margin-bottom: 30px;
 
 }
 
 .getintouch:hover{
     color: black;
-    background-color: rgb(157, 248, 157);
+    background-color: #fdf9f9;
+}
+
+.bottom-box{
+    margin-top: 70px;
+}
+
+.tech-skills{
+    padding: 15px 20px;
+    background-color: rgb(245, 240, 240);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.skill{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 15px;
+   background-color: #fff;
+   padding: 0 10px;
+
+}
+
+.text-logo{
+    display: flex;
+    align-items: center;
+}
+
+.skill img{
+    width: 100px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.special{
+    margin-left: -20px;
+    padding: 3px 0;
 }
