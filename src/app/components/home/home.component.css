@@ -11,6 +11,7 @@
 
 .left .image-box img{
     height: 700px;
+    margin-top: -350px;
 }
 
 .right{
