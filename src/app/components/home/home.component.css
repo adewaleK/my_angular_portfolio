@@ -1,6 +1,6 @@
 .home-box{
     display: flex;
-    padding: 8% 5% 3% 5%;
+    padding: 12% 5% 3% 5%;
     justify-content: space-between;
     align-items: center;
 }
@@ -19,40 +19,35 @@
 }
 
 .wrapper h4{
-    font-size: 20px;
-    color: gray;
-    font-style: italic;
+    font-size: 18px;
+    color: rgb(100, 98, 98);
 }
 
 .wrapper .bar{
     width: 10%;
     height: 5px;
-    background-color: red;
+    background-color: crimson;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .wrapper h1{
-    font-size: 60px;
+    font-size: 50px;
     margin: 10px 0;
 }
 
-.wrapper h2{
-    font-size: 35px;
-}
-
 .wrapper h3{
-    font-size: 30px;
+    font-size: 22px;
     margin-top: -15px;
 }
 
 .wrapper h3 span{
-    color: red;
+    color: crimson
 }
 
 .wrapper p{
-    color: gray;
-    font-size: 20px;
+    color: rgb(100, 98, 98);;
+    font-size: 18px;
     margin: 12px 0;
 }
 
@@ -61,7 +56,7 @@
 }
 
 .icons a{
-    font-size: 35px;
+    font-size: 27px;
     margin-right: 10px;
 }
 
@@ -79,12 +74,12 @@
 
 .getintouch{
     background-color: green;
-    padding: 10px 15px;
+    padding: 8px 12px;
     border-radius: 8px;
     color: #fff;
     text-decoration: none;
-    font-size: 20px;
-    transition: .8s ease-out;
+    font-size: 16px;
+    transition: 1.5s ease-in-out;
     margin-bottom: 30px;
 
 }

@@ -39,7 +39,7 @@
 }
 
 h1 span{
-    color: red;
+    color: crimson;
 }
 
 .nav-items a{
@@ -51,5 +51,5 @@ h1 span{
 }
 
 .nav-items a:hover{
-    color: red;
+    color: crimson;
 }

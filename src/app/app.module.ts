@@ -13,6 +13,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { BarComponent } from './components/bar/bar.component';
+import { Portfolio_dataService } from './_services/portfolio_data.service';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -30,8 +32,11 @@ import { BarComponent } from './components/bar/bar.component';
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes),
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    Portfolio_dataService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
