@@ -8,7 +8,7 @@
 .portfolio .bar{
     width: 5%;
     height: 5px;
-    background-color: red;
+    background-color: crimson;
     margin-top: -20px;
     margin-bottom: 30px;
 }
@@ -71,7 +71,7 @@
 
 .item p span{
     font-weight: bold;
-    color: red;
+    color: crimson;
 }
 
 #stack-span{
@@ -105,6 +105,4 @@
 .links div a:hover{
     background-color: rgb(157, 248, 157);
     color: black;
-    
-
 }
