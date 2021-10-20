@@ -53,3 +53,7 @@ h1 span{
 .nav-items a:hover{
     color: crimson;
 }
+
+.nav-items i{
+    display: block;
+}

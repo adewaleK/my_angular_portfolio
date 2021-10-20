@@ -125,11 +125,56 @@
     padding: 3px 0;
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media screen and (max-width: 768px)  {
     .home-box{
-        flex-direction: column;
-        
+        display: flex;
+        flex-direction: column;  
+        overflow-x: hidden;
     }
+
+    .left .image-box img{
+        height: 370px;
+        margin-top: 0;
+    }
+
+    .wrapper{
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .wrapper .bar{
+        margin: 15px auto;
+       
+    }
+
+    .wrapper h4{
+        margin-top: 12px;
+    }
+
+    .right{
+        text-align: center;
+    }
+
+    .text-logo p{
+        font-size: 14px;
+    }
+
+    .rating{
+        font-size: 14px !important;
+    }
+
+    .tech-skills{
+        padding:10px ;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .skill{
+        padding: 0 25px;
+    }
+
+
+   
   
    
     
