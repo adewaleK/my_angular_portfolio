@@ -54,6 +54,39 @@ h1 span{
     color: crimson;
 }
 
-.nav-items i{
-    display: block;
+#menu{
+    display: none;
+}
+
+
+@media screen and (max-width: 768px)  {
+
+    .nav-box{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .nav-box h1{
+        padding-left: 40px;
+        font-size: 30px;
+
+    }
+
+    .nav-items a{
+        display: none;
+    }
+
+    #menu{
+        display: block !important;
+        color: #fff;
+        font-size: 30px;
+        padding-right: 44px;
+    }
+
+
+    .left-nav p{
+        display: none;
+    }
+
+    
 }
