@@ -81,3 +81,55 @@ button:hover{
 button:focus{
     outline: none;
 }
+
+@media screen and (max-width: 768px)  {
+    .contact{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        overflow-x: hidden;
+        
+    }
+
+    .left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+    }
+
+    .left img{
+        width: 55%;
+    }
+
+    .right{
+        width: 60%;
+        margin-top: -30px;
+    }
+
+    .right form{
+        width: 30%;
+
+    }
+
+    .right p{
+        width: 220px;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+
+    form input,
+    form textarea{
+        width: 230px;
+        margin-bottom: 5px;
+    }
+
+    button{
+        width: 230px;
+        padding: 7px 0;
+        font-size: 14px;
+    }
+
+}
