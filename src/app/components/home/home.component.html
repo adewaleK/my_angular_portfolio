@@ -8,12 +8,9 @@
     <div class="wrapper">
       <h4>Hi, my name is</h4>
       <div class="bar"></div>
-      <!-- <h2>Hi there, I'm</h2> -->
-      <h1>Kamil Adewale</h1>
+      <h1>{{firstName}} {{lastName}}</h1>
       <h3>Fullstack <span>Developer</span></h3>
-      <p>I'm a full-stack developer based in Lagos, Nigeria. I have two years of experience 
-        in building efficient 
-        and beautiful websites and applications using modern web technologies.</p>
+      <p>{{about}}</p>
       <div class="icons">
         <a href="http://github.com/adewaleK"><i class="fab fa-github ghb"></i></a>
         <a href="https://www.linkedin.com/in/kamilu-adewale-64ab73197/"><i class="fab fa-linkedin lin"></i></a>
@@ -22,44 +19,16 @@
       <a [routerLink]="['/contact']" routerLinkActive="router-link-active" class="getintouch">Get In Touch</a>
      <div class="bottom-box">
       <h3 class="skills-header">Technical Skills</h3>
-      <div class="tech-skills">
-        <div class="skill">
+      <div class="tech-skills" >
+        <div class="skill" *ngFor="let item of mySkills">
           <div class="text-logo">
-            <img src="../../../assets/php3.png" alt="php">
-            <p>PHP</p>
+            <img src='{{imagebaseurl+item.name+".png"}}' alt="logo">
+            <p>{{item.name}}</p>
           </div>
-          <p>2 Years Of Experience</p>
-        </div>
-        <div class="skill">
-          <div class="text-logo">
-            <img src="../../../assets/js8.jpg" alt="js" class="special">
-            <p>JavaScript</p>
-          </div>
-          <p>2 Years Of Experience</p>
-        </div>
-        <div class="skill">
-          <div class="text-logo">
-            <img src="../../../assets/c3.jpg" alt="js" class="special">
-            <p>C#</p>
-          </div>
-          <p>2 Years Of Experience</p>
-        </div>
-        <div class="skill">
-          <div class="text-logo">
-            <img src="../../../assets/node.png" alt="js" class="special">
-            <p>Node.Js</p>
-          </div>
-          <p>2 Years Of Experience</p>
-        </div>
-        <div class="skill">
-          <div class="text-logo">
-            <img src="../../../assets/React.png" alt="js" class="special">
-            <p>React.Js</p>
-          </div>
-          <p>2 Years Of Experience</p>
+          <p>{{item.proficiency}} Years Of Experience</p>
         </div>
      </div>
-      </div>
+    </div>
     </div>
   </div>
 </div>
